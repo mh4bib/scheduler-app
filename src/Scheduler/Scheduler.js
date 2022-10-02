@@ -4,7 +4,7 @@ import EventBar from './EventBar';
 
 const Scheduler = () => {
     return (
-        <div>
+        <div className='grid grid-cols-4'>
             <Calender></Calender>
             <EventBar></EventBar>
         </div>
